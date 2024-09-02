@@ -24,9 +24,9 @@ sticker(
   h_color = ggplot2::alpha("#d8c8ab",.75),
   h_fill = ggplot2::alpha('#ffffff',0),
   white_around_sticker = T,
-  url = "https://spatlyu.github.io/sdsfun",
+  url = "https://stscl.github.io/sdsfun",
   u_color = "white",
-  u_size = 4.5,
+  u_size = 5,
   filename = "sdsfun_logo1.png"
 )
 
@@ -36,7 +36,6 @@ sticker(
 image_read('./sdsfun_logo1.png') |> 
   image_resize("256x256")|> 
   image_write('./sdsfun_logo.png')
-
 ```
 
 ![](./sdsfun_logo.png)
