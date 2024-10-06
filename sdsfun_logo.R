@@ -1,3 +1,5 @@
+# setwd('../../Downloads/materials/sdsfun_logo/')
+
 library(showtext)
 showtext_auto(enable = TRUE)
 font_add("ShineTypewriter", regular = "./ShineTypewriter-lgwzd.ttf")
@@ -32,6 +34,5 @@ sticker(
 # https://uutool.cn/img-matting/
 
 image_read('./sdsfun_logo1.png') |> 
-  image_resize("256x256")|> 
+  image_resize("240x278")|> 
   image_write('./sdsfun_logo.png')
-
